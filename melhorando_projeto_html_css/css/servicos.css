@@ -94,6 +94,40 @@ body{
     text-align: left;
 }
 
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.headline-inverse{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+}
+
+.headline-inverse h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #385a64;
+    padding: 0;
+    margin: 0;
+}
+
+.headline-inverse p{
+    color: #385a64;
+    text-align: left;
+}
+
+.img-headline-inverse{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+
 .contactbtn{
     display: inline-block;
     background: #d268cc;
@@ -106,13 +140,6 @@ body{
 
 .contactbtn:hover{
     background: #385a64;
-}
-
-.img-headline{
-    margin-right: 10%;
-    flex: 40%;
-    /* border: 1px solid red; */
-    text-align: center;
 }
 
 section{
@@ -136,6 +163,7 @@ section h2{
 .servicos{
     display: inline-block;
     margin-top: 5%;
+    flex-direction: row;
 }
 
 .card{

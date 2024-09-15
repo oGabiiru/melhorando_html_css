@@ -28,7 +28,7 @@ body{
 
 .logo h1{
     font-family: "Lobster", sans-serif;
-    color: #385a64;
+    color: #494cf3;
     font-size: 34px;
   
 }
@@ -40,19 +40,19 @@ body{
 }
 
 .menu a{
-    color: #385a64;
+    color: #494cf3;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
 
 .menu a:hover{
-    color: #d268cc;
-    border-top: 4px solid #385a64;
+    color: #ff776b;
+    border-top: 4px solid #494cf3;
 }
 
 #botao{
-    background: #385a64;
+    background: #494cf3;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -62,7 +62,7 @@ body{
 
 #botao:hover{
     border: none;
-    background: #d268cc;
+    background: #ff776b;
 }
 
 .header{
@@ -72,11 +72,11 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .headline{
-    margin-left: 10%;
+    margin-right: 10%;
     flex: 40%;
     /* border: 1px solid red; */
 }
@@ -84,19 +84,19 @@ body{
 .headline h2{
     font-weight: 900;
     font-size: 20px;
-    color: #385a64;
+    color: #494cf3;
     padding: 0;
     margin: 0;
 }
 
 .headline p{
-    color: #385a64;
+    color: #494cf3;
     text-align: left;
 }
 
 .contactbtn{
     display: inline-block;
-    background: #d268cc;
+    background: #ff776b;
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -105,81 +105,27 @@ body{
 }
 
 .contactbtn:hover{
-    background: #385a64;
+    background: #494cf3;
 }
 
 .img-headline{
-    margin-right: 10%;
+    margin-left: 10%;
     flex: 40%;
     /* border: 1px solid red; */
     text-align: center;
 }
 
-section{
-    display: inline-block;
-    margin-top: 80px;
-    /* border: 1px solid black; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 5%;
-    text-align: center;
-}
-
-section h2{
-    width: 100%;
-    font-size: 50px;
-    margin: 0;
-    font-family: "Lobster", sans-serif;
-    color: #385a64;
-}
-
-.servicos{
-    display: inline-block;
-    margin-top: 5%;
-}
-
-.card{
-    display: inline-block;
-    width: 30%;
-    padding: 25px;
-    margin: 1%;
-    border: 1px solid #d268cc;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.texto-oculto{
-    display: none;
-}
-
-.card:hover{
-    background: #d268cc;
-    color: white;
-    padding: 40px;
-}
-
-.card:hover img{
-    display: none;
-}
-
-.card:hover .card-text{
-    display: none;
-}
-
-.card:hover .texto-oculto{
-    display: block;
-}
-
 footer{
     margin-top: 100px;
     height: 400px;
-    background-image:linear-gradient(180deg, #385a64,#1a2a2f,black);
+    background-image:linear-gradient(180deg, #494cf3,#1a2a2f,black);
     text-align: center;
-    border-top: 5px solid #d268cc;
+    border-top: 5px solid #ff776b;
 }
 
 .logo-rodape{
     padding: 100px;
+    width: 100%;
 }
 
 .agencia{
